@@ -1,0 +1,1 @@
+# Segunda-prova-bimestral-disciplina-Algoritmos-de-logica-de-programa-o-Turma-2-info-A-
