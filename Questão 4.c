@@ -2,7 +2,7 @@
 
 int main() {
     int opcao;
-    double num1, num2, resultado;
+    double numero1, numero2, resultado;
 
     
     printf("Escolha uma operação:\n");
@@ -15,28 +15,28 @@ int main() {
 
     
     printf("Digite o primeiro número: ");
-    scanf("%lf", &num1);
+    scanf("%lf", &numero1);
 
     printf("Digite o segundo número: ");
-    scanf("%lf", &num2);
+    scanf("%lf", &numero2);
 
     switch (opcao) {
         case 1:
-            resultado = num1 + num2;
+            resultado = numero1 + numero2;
             printf("Resultado da soma: %.2lf\n", resultado);
             break;
         case 2:
-            resultado = num1 - num2;
+            resultado = numero1 - numero2;
             printf("Resultado da subtração: %.2lf\n", resultado);
             break;
         case 3:
-            resultado = num1 * num2;
+            resultado = numero1 * numero2;
             printf("Resultado da multiplicação: %.2lf\n", resultado);
             break;
         case 4:
             
-            if (num2 != 0) {
-                resultado = num1 / num2;
+            if (numero2 != 0) {
+                resultado = numero1 / numero2;
                 printf("Resultado da divisão: %.2lf\n", resultado);
             } else {
                 printf("Erro: Não é possível dividir por zero!\n");
