@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int num;
+    int numero;
     
     printf("Numero\tQuadrado\tCubo\n");
     
-    for (num = 0; num <= 10; num++) {
-        printf("%d\t%d\t\t%d\n", num, num*num, num*num*num);
+    for (numero = 0; numero <= 10; numero++) {
+        printf("%d\t%d\t\t%d\n", numero, numero*numero, numero*numero*numero);
     }
 
     return 0;
